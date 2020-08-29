@@ -54,7 +54,8 @@
                 <table class="table table-striped">
                 <tr>
                     <th>Nome</th>
-                    <th>Posição</th>              
+                    <th>Posição</th>     
+                    <th>País</th>
                 </tr>
                 <?php foreach ($time->squad as $player) {
                 ?>
