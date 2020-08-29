@@ -64,7 +64,7 @@
                             else if($player->position=='Defender') echo 'Zagueiro';
                             else if($player->position=='Midfielder') echo 'Meio-Campo';
                             else if($player->position=='Attacker') echo 'Atacante';
-                            
+                    <td><?php echo $player->nationality; ?></td>        
                     ?></td>       
                 </tr>
                 <?php } ?>
